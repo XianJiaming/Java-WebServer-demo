@@ -43,7 +43,7 @@
 
 |      |                                                              |
 | ---- | ------------------------------------------------------------ |
-|      | ![img](https://github.com/XianJiaming/Java-WebServer-demo.git/img/1.jpg) |
+|      | ![img](https://github.com/XianJiaming/Java-WebServer-demo/tree/master/img/1.jpg) |
 
 ### 主要代码
 
