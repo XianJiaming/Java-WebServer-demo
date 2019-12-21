@@ -43,7 +43,7 @@
 
 |      |                                                              |
 | ---- | ------------------------------------------------------------ |
-|      | ![img](file:///C:\Users\hasee\AppData\Local\Temp\ksohtml12460\wps1.jpg) |
+|      | ![img](https://github.com/XianJiaming/Java-WebServer-demo.git/img/1.jpg) |
 
 ### 主要代码
 
