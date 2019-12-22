@@ -41,9 +41,7 @@
 
 ### 设计图
 
-|      |                                                              |
-| ---- | ------------------------------------------------------------ |
-|      | ![img](https://github.com/XianJiaming/Java-WebServer-demo/tree/master/img/1.jpg) |
+![](img\1.jpg)
 
 ### 主要代码
 
@@ -62,7 +60,7 @@
 
 ***\*private String getResourcePath(String s)：获取请求文件的名称\****
 
-![img](file:///C:\Users\hasee\AppData\Local\Temp\ksohtml12460\wps2.png) 
+![img](img\2.png) 
 
 根据HTTP请求报文的格式，可以看到，第一行为请求方法+请求URL+HTTP协议版本(以空格分隔)，故第一行第二个位置为请求URL。
 
@@ -92,24 +90,22 @@
 
 浏览器可以正确返回主页页面
 
-![img](file:///C:\Users\hasee\AppData\Local\Temp\ksohtml12460\wps3.jpg) 
+![img](img\3.jpg) 
 
  控制台上打印出http请求报文
 
-|      |                                                              |
-| ---- | ------------------------------------------------------------ |
-|      | ![img](file:///C:\Users\hasee\AppData\Local\Temp\ksohtml12460\wps4.jpg) |
+ ![img](img\4.jpg)
 
  如果输入localhost:12345/，会默认访问主页
 
-![img](file:///C:\Users\hasee\AppData\Local\Temp\ksohtml12460\wps5.jpg) 
+![img](img\5.jpg) 
 
 如果输入不存在的地址 如localhost:12345/inhtml，会返回404 Not Found响应报文，同时显示错误页面（某些浏览器会请求favicon.ico，即地址栏左侧小图标，在这里因没有图标文件，所以应当返回404 Not Found）
 
-![img](file:///C:\Users\hasee\AppData\Local\Temp\ksohtml12460\wps6.jpg) 
+![img](img\6.jpg) 
 
-![img](file:///C:\Users\hasee\AppData\Local\Temp\ksohtml12460\wps7.jpg) 
+![img](img\7.jpg) 
 
 可以实现多个用户同时访问Server，实现并发
 
-![img](file:///C:\Users\hasee\AppData\Local\Temp\ksohtml12460\wps8.jpg) 
+![img](img\8.jpg) 
